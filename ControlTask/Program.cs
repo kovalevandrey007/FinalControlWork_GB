@@ -5,8 +5,15 @@
 Примеры: ["hello", "2", "world", ":-)"] -> ["2", ":-)"]
          ["1234", "1567", "-2", "computer sciens"] -> ["-2"]*/
 
-Console.WriteLine("Наш массив:"); 
+onsole.WriteLine("Наш массив:"); 
 string[] myArray = {"string", "df", "34&", "computer sciens", "w+)"};
 for (int i = 0; i < myArray.Length; i++)
-
 Console.Write("{0}, ", myArray[i]);
+Console.WriteLine();
+Console.WriteLine("\nМассив из строк длина которых <= 3 символов:");
+
+if (myArray[0].Length <= 3)
+{
+Console.Write("{0}, ", myArray[0]);
+        }
+        if (myArray[1].Length <= 3)
