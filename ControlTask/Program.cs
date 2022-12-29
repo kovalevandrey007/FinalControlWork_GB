@@ -17,20 +17,20 @@ Console.Write("{0}, ", myArray[0]);
     }
     if (myArray[1].Length <= 3)
         {
-            Console.Write("{0}, ", myArray[1]);
-                }
-                        if (myArray[2].Length <= 3)
-                        {
-                                Console.Write("{0}, ", myArray[2]);
-                                }
-                                        if (myArray[3].Length <= 3)
-                                        {
-                                        Console.Write("{0}, ", myArray[3]);
-                                        }
-                                                if (myArray[4].Length <= 3)
-                                                {
-                                                Console.Write("{0}, ", myArray[4]);
-                                                }
+        Console.Write("{0}, ", myArray[1]);
+            }
+                if (myArray[2].Length <= 3)
+                    {
+                        Console.Write("{0}, ", myArray[2]);
+                            }
+                                if (myArray[3].Length <= 3)
+                                    {
+                                    Console.Write("{0}, ", myArray[3]);
+                                    }
+                                        if (myArray[4].Length <= 3)
+                                            {
+                                            Console.Write("{0}, ", myArray[4]);
+                                            }
 Console.WriteLine();
 
 
