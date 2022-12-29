@@ -10,3 +10,6 @@ for (int i = 0; i < myArray.Length; i++)
 Console.Write("{0}, ", myArray[i]);
 Console.WriteLine();
 
+
+
+Console.WriteLine("\nМассив из строк длина которых <= 3 символов:");
